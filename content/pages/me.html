@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Resume - About me</title>
+
+		<link rel='stylesheet' href='../styles/stylesheet.css'>
+		<link rel="stylesheet" href="../styles/me.html.stylesheet.css">
+		<link type="text/javascript" href="../datas/My_biography.txt">
+		<link type="text/javascript" href="../scripts/me.html.script.js">
+	</head>
+
+	<body>
+		<div class='text'><p><a href='../../index.html'><--[Go back]</a></p></div>
+
+		<div id='text_blocks'>
+			<div><img id='photo' src='../images/DownloadImageDocument.jpeg'></div>
+
+			<div class='text' id='contact'>
+				<p style='font-size:35px;'>Kadyr Bakdaulet</p>
+				<p style='color:#85EBD9;margin-bottom:0px;margin-top:0px;'>Email:</p>
+				<p style='color:#FD0130;margin-bottom:0px;margin-top:0px;'>qadyr.bagdaulet@gmail.com</p>
+				<p style='color:#85EBD9;margin-bottom:0px;margin-top:0px;'>Phone:</p>
+				<p style='color:#FD0130;margin-bottom:0px;margin-top:0px;'>8 747 527 3975</p>
+				<p style='color:#85EBD9;margin-bottom:0px;margin-top:0px;'>Telegram:</p>
+				<p style='color:#FD0130;margin-bottom:0px;margin-top:0px;'>@Polzevatel</p>
+			</div>
+			<p id='bio'><script type="text/javascript">
+				const biography=fetch('../datas/My_biography.txt');
+				const text=response.text(biography)
+				document.write(text);
+			</script></p>
+
+		</div>
+	</body>
+</html>
