@@ -2,6 +2,7 @@ let data = JSON.parse(achivements);
 function input_creater() {
     let input = document.createElement('input');
     input.id = 'input' + '_' + i + '_' + j;
+    input.type = 'radio';
     input.name = 'href';
     input.value = data[i].badges[j].link;
     let label = document.createElement('label');
