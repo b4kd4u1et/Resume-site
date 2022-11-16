@@ -1,7 +1,7 @@
-{
-  "TryHackMe":{
-    "LinuxBadge":"https://tryhackme.com/b249623/badges/terminaled",
-    "Webded":"https://tryhackme.com/b249623/badges/web-fund"
+achivements = {
+  {
+    "vendor":"TryHackMe",
+    "badges":[{"badge_name":"cat linux.txt", "link":"https://tryhackme.com/b249623/badges/terminaled"}, {"badge_name":"Webbed", "link":"https://tryhackme.com/b249623/badges/web-fund"}],
   }
-  
+
 }
