@@ -6,8 +6,6 @@
 
 		<link rel='stylesheet' href='../styles/stylesheet.css'>
 		<link rel="stylesheet" href="../styles/me.html.stylesheet.css">
-		<link type="text/javascript" href="../datas/My_biography.txt">
-		<link type="text/javascript" href="../scripts/me.html.script.js">
 	</head>
 
 	<body>
@@ -25,12 +23,10 @@
 				<p style='color:#85EBD9;margin-bottom:0px;margin-top:0px;'>Telegram:</p>
 				<p style='color:#FD0130;margin-bottom:0px;margin-top:0px;'>@Polzevatel</p>
 			</div>
-			<p id='bio'><script type="text/javascript">
-				const biography=fetch('../datas/My_biography.txt');
-				const text=response.text(biography)
-				document.write(text);
-			</script></p>
-
+			<p id='bio'>
+                                <script type="text/javascript" href="../datas/My_biography.json"></script>
+		                <script type="text/javascript" href="../scripts/me.html.script.js"></script>
+                        </p>
 		</div>
 	</body>
 </html>
