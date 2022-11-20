@@ -41,8 +41,8 @@
         }
       #selectors_div{
         position: absolute;
-        width: 330px
-        height: 680px
+        width: 330px;
+        height: 680px;
         }
 
     </style>
@@ -57,11 +57,14 @@
         <script type="text/javascript" src="../datas/achivementLinks.json"></script>
         <script type="text/javascript" src="../scripts/achivementsScript.js"></script>
         -->
-        <input id=0 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
-          <label class='text' for=0>cat linux.txt</label><br>
+        <details close>
+          <summary class="text" style="font-size: 25px;">TryHackMe's badges</summary>
+          <input id=0 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
+            <label class='text' for=0 style="font-size: 25px;color:#FD0130;">cat linux.txt</label><br>
 
-        <input id=1 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
-          <label class='text' for=1>Webbed</label>
+          <input id=1 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
+            <label class='text' for=1 style="font-size: 25px;color:#FD0130;">Webbed</label>
+        </details>
       </div>
 
       <div id='show_acivements'>
