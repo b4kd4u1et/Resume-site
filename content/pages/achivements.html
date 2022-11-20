@@ -53,18 +53,15 @@
     <div id='text_blocks'>
       <div id='selectors_div'>
         <script type="text/javascript" src="../scripts/achivements_forms_script.js"></script>
+        <!-- Scripts not ready!
+        <script type="text/javascript" src="../datas/achivementLinks.json"></script>
+        <script type="text/javascript" src="../scripts/achivementsScript.js"></script>
+        -->
+        <input id=0 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
+          <label class='text' for=0>cat linux.txt</label><br>
 
-        <form id="selector">
-          <!-- Scripts not ready!
-          <script type="text/javascript" src="../datas/achivementLinks.json"></script>
-          <script type="text/javascript" src="../scripts/achivementsScript.js"></script>
-          -->
-          <input id=0 onselect="selector()" type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
-            <label class='text' for=0>cat linux.txt</label><br>
-
-          <input id=1 onselect="selector()" type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
-            <label class='text' for=1>Webbed</label>
-        </form>
+        <input id=1 onclick="selector_func(value)" type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
+          <label class='text' for=1>Webbed</label>
       </div>
 
       <div id='show_acivements'>
