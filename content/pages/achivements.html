@@ -39,6 +39,11 @@
         width: 330px;
         height: 680px;
         }
+      #selectors_div{
+        position: absolute;
+        width: 330px
+        height: 680px
+        }
 
     </style>
   </head>
@@ -46,24 +51,24 @@
     <div class='text'><p><a href='../../index.html'><--[Go back]</a></p></div>
 
     <div id='text_blocks'>
-      <div>
+      <div id='selectors_div'>
+        <script type="text/javascript" src="../scripts/achivements_forms_script.js"></script>
+
         <form id="selector">
           <!-- Scripts not ready!
           <script type="text/javascript" src="../datas/achivementLinks.json"></script>
           <script type="text/javascript" src="../scripts/achivementsScript.js"></script>
           -->
-          <input id=0 type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
-          <label class='text' for=0>cat linux.txt</label>
-          <input id=1 type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
-        </form>
+          <input id=0 onselect="selector()" type="radio" name="link" value="https://tryhackme.com/b249623/badges/terminaled">
+            <label class='text' for=0>cat linux.txt</label><br>
 
-        <script type="text/javascript">
-          
-        </script>
+          <input id=1 onselect="selector()" type="radio" name="link" value="https://tryhackme.com/b249623/badges/web-fund">
+            <label class='text' for=1>Webbed</label>
+        </form>
       </div>
 
       <div id='show_acivements'>
-        <iframe src=#link id="achivement_frame"></iframe>
+        <iframe src='' id="achivement_frame"></iframe>
       </div>
     </div>
   </body>
