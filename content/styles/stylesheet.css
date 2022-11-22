@@ -17,6 +17,7 @@ a:active{
 body{
 	position: absolute;
 	width: 1366px;
+	height: 623px;
 	background: #2F404D;
 	}
 
@@ -28,3 +29,13 @@ body{
 	font-size: 38.7188px;
 	color: #85EBD9;
 	}
+
+#text_blocks{
+  position: absolute;
+  border: 10px solid #E2DDDF;
+  width: 1191.61px;
+  height: 680px;
+  left: 88px;
+  top: 143px;
+  overflow:hidden;
+  }
