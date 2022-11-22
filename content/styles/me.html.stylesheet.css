@@ -40,3 +40,24 @@
   line-height: 27px;
   color: #02D7F2;
   }
+button{
+  position: absolute;
+  border: 1px solid #85EBD9;
+  border-radius: 5px;
+  background-color: inherit;
+  top: 415px;
+  left: 150px;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #02D7F2;
+  filter: drop-shadow(0 0 0.3rem);
+  }
+button:hover{
+  color: #02D7F2;
+  background-color: #FD0130;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 0.75rem);
+  }
