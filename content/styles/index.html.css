@@ -21,7 +21,7 @@
   align-items: center;
   text-align: right;
   }
-  
+
 #top_line{
   position: absolute;
   width: 512px;
@@ -53,8 +53,4 @@
   background: #E2DDDF;
   border: 10px solid #E2DDDF;
   transform: rotate(-40deg);
-  }
-
-@keyframes lines {
-  0%{transform: }
   }
