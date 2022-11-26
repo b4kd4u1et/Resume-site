@@ -1,0 +1,23 @@
+.skills_type{
+  border: 1px solid #16a6d2;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  background-color: rgb(40, 66, 97);
+  box-shadow: 0px 0px 40px 2px #16a6d247;
+  }
+
+.skill_type_icon{
+  width: 64px;
+  height: 64px;
+  align-self: center;
+  }
+
+.hided_list{
+  display: none;
+  position: absolute;
+  opacity: 0;
+  }
