@@ -14,10 +14,28 @@
 		<div class='text'><p><a href='../../index.html'><--[Go back]</a></p></div>
 
 		<div class="skills">
-			<input id="web" class="hided_list" type="radio" name="toggle">
-			<label for="web"><div class="skills_type">
-				<img class="skill_type_icon" src="../images/internet.png">
-			</div></label>
+			<div>
+				<button id="web" type="radio" name="toggle" onclick="list_toggle('web_list')">
+					<label for="web">
+						<div class="skills_type">
+							<img class="skill_type_icon" src="../images/internet.png">
+						</div>
+					</label>
+				</button>
+			</div>
+			<div class="list subtext" id="web_list" hidden>
+				<ul>
+					<li>
+						<a href="skills.html-pages/web/filters.html">
+							Filters
+						</a>
+					</li>
+					<li>
+						Other examples
+					</li>
+				</ul>
+			</div>
+
 		</div>
 	</body>
 </html>

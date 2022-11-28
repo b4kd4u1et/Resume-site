@@ -1,10 +1,10 @@
-function list_toggle(list_name) {
-  let list = document.getElementById(arguments[0]);
+function list_toggle(list_id) {
+  let list = document.getElementById(list_id);
   let hidden = list.getAttribute('hidden');
 
   if (hidden) {
     list.removeAttribute('hidden');
   } else {
-    list.setAttribute('hidden');
+    list.setAttribute('hidden', 'hidden');
   }
 }

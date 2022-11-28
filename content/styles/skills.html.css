@@ -16,6 +16,16 @@
   align-self: center;
   }
 
-.hided_list{
-  display: none;
-  }
+.list{
+  position: relative;
+  margin: 5px;
+}
+
+.skills{
+  display: grid;
+  position: absolute;
+  height: 480px;
+  width: 1350px;
+  padding-left: 20px;
+  padding-top: 15px;
+}

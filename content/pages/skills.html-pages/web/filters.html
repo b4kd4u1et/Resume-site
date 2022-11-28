@@ -4,24 +4,23 @@
 
     <link rel="stylesheet" href="../../../styles/stylesheet.css">
     <link rel="stylesheet" href="filters.html.css">
+
+    <!--<script type="text/javascript" src="filters.html.js"></script>-->
   </head>
 
     <body>
       <div class='text'><p><a href='../../skills.html'><--[Go back]</a></p></div>
 
       <div class="main">
-        <div id="m1"><img src="../../../images/DownloadImageDocument.jpeg" alt=""></div>
+        <div id="m1"><img src="../../../images/DownloadImageDocument.jpeg" id='photo'></div>
 
         <div id="m2">
-          <table>
-            <tr>
-              <td>Filters</td>
-              <td>Checkboxes</td>
-            </tr>
-            <tr>
-
-            </tr>
-          </table>
+          <form id="parameters" name="filter_parameters" action="filters.html.js" method="post">
+            <input type="text" name="blur" value="">
+            <input type="text" name="brightness" value="">
+            <input type="text" name="contrast" value="">
+            <button type="button" name="button">Set filter parameters</button>
+          </form>
         </div>
       </div>
     </body>
