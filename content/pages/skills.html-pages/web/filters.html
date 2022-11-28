@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../../../styles/stylesheet.css">
     <link rel="stylesheet" href="filters.html.css">
 
-    <!--<script type="text/javascript" src="filters.html.js"></script>-->
+    <script type="text/javascript" src="filters.html.js"></script>
   </head>
 
     <body>
@@ -15,11 +15,14 @@
         <div id="m1"><img src="../../../images/DownloadImageDocument.jpeg" id='photo'></div>
 
         <div id="m2">
-          <form id="parameters" name="filter_parameters" action="filters.html.js" method="post">
-            <input type="text" name="blur" value="">
+          <form id="parameters" name="filter_parameters" method="post">
+            <p>
+              <label for="blur">Blur</label>
+              <input id="blur" type="text" name="blur" value="">
+            </p>
             <input type="text" name="brightness" value="">
             <input type="text" name="contrast" value="">
-            <button type="submit" name="button">Set filter parameters</button>
+            <input type="submit" onclick="filter();">
           </form>
         </div>
       </div>
