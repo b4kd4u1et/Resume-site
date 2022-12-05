@@ -39,8 +39,8 @@ button{
   border: 1px solid #85EBD9;
   border-radius: 5px;
   background-color: inherit;
-  top: 415px;
-  left: 150px;
+  top: 635px;
+  left: 170px;
   font-family: 'Chakra Petch';
   font-style: normal;
   font-weight: 700;
@@ -49,7 +49,7 @@ button{
   color: #02D7F2;
   filter: drop-shadow(0 0 0.3rem);
   }
-  
+
 button:hover{
   color: #02D7F2;
   background-color: #FD0130;
