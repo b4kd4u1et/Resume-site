@@ -22,6 +22,7 @@ body{
 	}
 
 .text{
+/*
 	--primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 1%));
   --shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%);
   --primary-hue: 0;
@@ -42,6 +43,7 @@ body{
   --clip-five: polygon(0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0);
   --clip-six: polygon(0 40%, 100% 40%, 100% 85%, 95% 85%, 95% 85%, 85% 85%, 85% 85%, 8% 85%, 0 70%);
   --clip-seven: polygon(0 63%, 100% 63%, 100% 80%, 95% 80%, 95% 80%, 85% 80%, 85% 80%, 8% 80%, 0 70%);
+*/
 	position: relative;
 	font-family: 'Chakra Petch';
 	font-style: normal;
@@ -49,7 +51,7 @@ body{
 	font-size: 38.7188px;
 	color: #85EBD9;
 	}
-.text:hover{
+/*.text:hover{
 	animation: glitch 4s linear infinite;
 }
 
@@ -97,7 +99,7 @@ body{
   clip-path: var(--clip);
   z-index: -1;
 }
-
+*/
 #text_blocks{
   position: absolute;
   border: 10px solid #E2DDDF;
@@ -112,7 +114,7 @@ body{
 	  position: relative;
 		font-weight: 700;
 	  }
-
+/*
 	@keyframes glitch {
 	  0% {
 	    clip-path: var(--clip-one);
@@ -177,3 +179,4 @@ body{
 	.text:nth-of-type(2) {
 	  --primary-hue: 260;
 	}
+*/
